@@ -4,22 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Terms &amp; Conditions | AMZW Consulting Group</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body class="page-terms">
   <header class="global-header">
     <div class="container header-grid">
-      <div class="brand">
-        <img src="/assets/img/logo-placeholder.svg" alt="AMZW Consulting Group Logo" class="logo">
-      </div>
-      <nav class="main-nav" aria-label="Primary">
-        <ul class="nav-list">
-          <li><a class="nav-link" href="/pages/about.html">About</a></li>
-          <li><a class="nav-link" href="/pages/services.html">Services</a></li>
-          <li><a class="nav-link" href="/pages/contact.html">Contact</a></li>
-        </ul>
+      <a href="../index.html" class="brand-logo">
+        <img src="../assets/img/logo.jpg" alt="AMZW Consulting Group" style="max-height: 50px; width: auto; object-fit: contain;">
+      </a>
+
+      <nav class="nav-links" aria-label="Primary Navigation">
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="../services.html" class="nav-link">Services</a>
+        <a href="contact.html" class="nav-link">Contact</a>
       </nav>
-      <a class="nav-cta button button-primary" href="/pages/contact.html">Book a Call</a>
+
+      <div class="nav-actions">
+        <a href="contact.html" class="btn-primary">Book a Call</a>
+      </div>
     </div>
   </header>
 
@@ -27,9 +35,11 @@
     <section class="hero hero-inner">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">Legal</p>
-          <h1 class="hero-title">Terms &amp; Conditions</h1>
-          <p class="hero-subtitle">The terms governing your use of our website and engagement with AMZW Consulting Group.</p>
+          <header class="section-header">
+            <p class="eyebrow">Legal</p>
+            <h1 class="hero-title">Terms &amp; Conditions</h1>
+            <p class="hero-subtitle">The terms governing your use of our website and engagement with AMZW Consulting Group.</p>
+          </header>
         </div>
       </div>
     </section>
@@ -40,7 +50,7 @@
           <h2 class="section-title">1. Agreement Overview</h2>
         </header>
         <div class="text-block">
-          <p>These Terms &amp; Conditions (“Terms”) govern your use of the AMZW Consulting Group website and any engagement with our services. By accessing our site or engaging with us, you agree to these Terms.</p>
+          <p>These Terms &amp; Conditions ("Terms") govern your use of the AMZW Consulting Group website and any engagement with our services. By accessing our site or engaging with us, you agree to these Terms.</p>
         </div>
       </div>
     </section>
@@ -146,45 +156,16 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div class="footer-brand">
-        <a class="brand" href="/">
-          <span class="brand-mark">AMZW</span>
-          <span class="brand-name">Consulting Group</span>
-        </a>
-        <p class="footer-copy">Guiding startups and SMEs across the MENA region with strategy, operations, and insights that drive sustainable growth.</p>
-      </div>
-      <div class="footer-nav">
-        <h3 class="footer-title">Explore</h3>
-        <ul class="footer-links">
-          <li><a href="/pages/about.html">About</a></li>
-          <li><a href="/pages/services.html">Services</a></li>
-          <li><a href="/pages/contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div class="footer-nav">
-        <h3 class="footer-title">Legal</h3>
-        <ul class="footer-links">
-          <li><a href="/pages/privacy.html">Privacy Policy</a></li>
-          <li><a href="/pages/terms.html">Terms &amp; Conditions</a></li>
-        </ul>
-      </div>
-      <div class="footer-cta">
-        <h3 class="footer-title">Ready to talk?</h3>
-        <p class="footer-copy">Book a free consultation to map your next move with our advisors.</p>
-        <a class="button button-primary" href="/pages/contact.html">Book a Free Consultation</a>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <div class="container footer-bottom-bar">
-        <p class="footer-meta">&copy; 2024 AMZW Consulting Group. All rights reserved.</p>
-        <div class="footer-meta-links">
-          <a href="/pages/privacy.html">Privacy</a>
-          <a href="/pages/terms.html">Terms</a>
-        </div>
-      </div>
+  <footer>
+    <div class="container">
+      <p>© 2026 AMZW Consulting Group · All Rights Reserved</p>
     </div>
   </footer>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
+  <!-- Custom JavaScript -->
+  <script src="../assets/js/script.js"></script>
 </body>
 </html>
