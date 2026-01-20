@@ -1,5 +1,6 @@
 /**
  * AMZW Consulting Group - Main JavaScript
+ * Frontend Development: ENG.MohammedAshrafMohammed
  * Handles navigation, form validation, and interactive features
  */
 
@@ -561,3 +562,4 @@
   init();
 
 })();
+// Frontend Development: ENG.MohammedAshrafMohammed
